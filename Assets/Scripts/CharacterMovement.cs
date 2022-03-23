@@ -27,5 +27,10 @@ public class CharacterMovement : MonoBehaviour
         {
             transform.position = new Vector3(-23, 10, -8);
         }
+
+        if(collision.gameObject.tag == "Sunlight")
+        {
+            transform.position = new Vector3(-23, 10, -8);
+        }
     }
 }
