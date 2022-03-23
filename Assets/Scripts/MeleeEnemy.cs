@@ -37,6 +37,4 @@ public class MeleeEnemy : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, NextPoint.position, speed * Time.deltaTime);
         }
     }
-
-   
 }

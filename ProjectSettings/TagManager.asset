@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Blood
   - Enemy
-  - Sunlight
   layers:
   - Default
   - TransparentFX
