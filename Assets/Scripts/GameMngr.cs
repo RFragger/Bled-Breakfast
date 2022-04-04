@@ -64,6 +64,11 @@ public class GameMngr : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void nextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void Clicked(string levelName)
     {
         Debug.Log("CLICKED ME: " + levelName);

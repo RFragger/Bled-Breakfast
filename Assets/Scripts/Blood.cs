@@ -8,7 +8,7 @@ public class Blood : MonoBehaviour
     public GameObject bloodDrop;
     public SpriteRenderer bloodRend;
     public CircleCollider2D bloodCollider;
-
+    public AudioSource bloodSlurp;
    
 
     // Start is called before the first frame update
@@ -47,8 +47,10 @@ public class Blood : MonoBehaviour
     {
         if( collision.gameObject.tag == "Player")
         {
-            Cain.GM.bloodLevels += 10;
+            Cain.GM.bloodLevels += 25;
             Destroy(gameObject);
+            bloodSlurp.Play();
+
             //collected = true;
             //BloodCollected();
             //Debug.Log("Collected Blood");
