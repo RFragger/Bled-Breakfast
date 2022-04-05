@@ -17,6 +17,10 @@ public class GameMngr : MonoBehaviour
     public Button Restartbutton;
     public Image ButtonImage;
     public Text ButtonText;
+    public bool bloodDrunk;
+    public float Drunkspeed;
+    public CharacterMovement CM;
+    //public static bool GameOver = false;
     
 
     // Start is called before the first frame update
@@ -28,18 +32,31 @@ public class GameMngr : MonoBehaviour
         Restartbutton.enabled = false;
         ButtonImage.enabled = false;
         ButtonText.enabled = false;
-       
+        bloodDrunk = false;
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        //if (GameMngr.GameOver)
+        //{
+            //Fade the screen out and eventually change scenes
+        //    return;
+        //}
         currentMeter = bloodLevels;
         meter.value = currentMeter;
         bloodLevels = bloodLevels - Time.deltaTime * bloodDrain;
-        if (bloodLevels >= 100)
+        if (bloodLevels >= 101)
         {
-            bloodLevels = 100;
+            bloodDrunk = true;
+        }else
+        {
+         if  ( bloodLevels <= 100)
+                {
+                bloodDrunk = false;
+                }
         }
         if (bloodLevels <= 0)
         {
@@ -55,7 +72,13 @@ public class GameMngr : MonoBehaviour
             ButtonText.enabled = true;
         }
 
-       
+       if (bloodDrunk == true)
+        {
+            CM.speed = 2.5f;
+        } else
+        {
+            CM.speed = 5;
+        }
 
     }
 
@@ -74,4 +97,5 @@ public class GameMngr : MonoBehaviour
         Debug.Log("CLICKED ME: " + levelName);
         SceneManager.LoadScene(levelName);
     }
+    
 }

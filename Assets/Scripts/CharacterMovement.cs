@@ -6,16 +6,18 @@ using UnityEngine.SceneManagement;
 public class CharacterMovement : MonoBehaviour
 {
     public float speed;
+
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameMngr.GameOver = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (GameMngr.GameOver) return;
         var xMovement = Input.GetAxis("Horizontal");
         var yMovement = Input.GetAxis("Vertical");
 
@@ -39,6 +41,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if(collision.gameObject.tag == "Exit")
         {
+            GameMngr.GameOver = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
