@@ -22,6 +22,26 @@ public class CharacterMovement : MonoBehaviour
         var yMovement = Input.GetAxis("Vertical");
 
         transform.position += new Vector3(xMovement, yMovement, 0) * Time.deltaTime * speed;
+
+        float rot = transform.rotation.eulerAngles.z; 
+        //Right
+        if (xMovement > 0 && yMovement == 0) rot = -90;
+        //Right-Diagonal-Up
+        else if (xMovement > 0 && yMovement > 0) rot = -45;
+        //Left
+        if (xMovement < 0 && yMovement == 0) rot = 90;
+        //Left-Diagonal-Up
+        else if (xMovement < 0 && yMovement > 0) rot = 45;
+        //Up
+        if (xMovement == 0 && yMovement > 0) rot = 360;
+        //Down
+        else if (xMovement == 0 && yMovement < 0) rot = -180;
+        //Left-Diagonal-Down
+        if (xMovement < 0 && yMovement < 0) rot = 135;
+        //Right-Diagonal-Down
+        else if (xMovement > 0 && yMovement < 0) rot = -135;
+
+        transform.rotation = Quaternion.Euler(0, 0, rot);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
