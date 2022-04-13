@@ -1,19 +1,37 @@
 fileFormatVersion: 2
-guid: c4fb73a17a0c66645960812fb5cb09fb
+guid: f9662c6ad97a4fb4381f879ab98a3789
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 879229354123007018
-    second: HuntRang Idle
+      213: -8316865690910748889
+    second: hmel Idle
   - first:
-      213: -7079020211890734313
-    second: HuntRang Idle 2
+      213: 2907779702410877852
+    second: hmel Idle 2
   - first:
-      213: 8622552787453725418
-    second: HuntRang Atk
+      213: 8392044966141590155
+    second: hmel Atk 1
   - first:
-      213: 4806063216662775327
-    second: HuntRang Atk 2
+      213: -3163646931350503793
+    second: hmel Atk 2
+  - first:
+      213: -1629703795377978203
+    second: hmel Atk 3
+  - first:
+      213: -1066999551656652027
+    second: hmel Atk 4
+  - first:
+      213: -9096305093523069210
+    second: hmel Walk
+  - first:
+      213: -8962665852796816236
+    second: hmel Atk 5
+  - first:
+      213: 5224085941436426514
+    second: hmel Atk 6
+  - first:
+      213: -5569862379637859331
+    second: hmel Atk 7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,7 +145,154 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HuntRang Idle
+      name: hmel Idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f81a008be849c80800000000000000
+      internalID: -8316865690910748889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Idle 2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b9a47bb328a5820800000000000000
+      internalID: 2907779702410877852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Atk 1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a79f90f68867470800000000000000
+      internalID: 8392044966141590155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Atk 2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e391ea0e77814d0800000000000000
+      internalID: -3163646931350503793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Atk 3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4c36b58012269e0800000000000000
+      internalID: -1629703795377978203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Atk 4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503110c9f814131f0800000000000000
+      internalID: -1066999551656652027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Walk
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e62bf336be63c180800000000000000
+      internalID: -9096305093523069210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hmel Atk 5
       rect:
         serializedVersion: 2
         x: 0
@@ -135,20 +300,20 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2419907076a33c00800000000000000
-      internalID: 879229354123007018
+      spriteID: 494b583a4e63e9380800000000000000
+      internalID: -8962665852796816236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HuntRang Idle 2
+      name: hmel Atk 6
       rect:
         serializedVersion: 2
         x: 100
@@ -156,20 +321,20 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71b3170af9442cd90800000000000000
-      internalID: -7079020211890734313
+      spriteID: 2192e6f3c7eaf7840800000000000000
+      internalID: 5224085941436426514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HuntRang Atk
+      name: hmel Atk 7
       rect:
         serializedVersion: 2
         x: 200
@@ -177,35 +342,14 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeacb31731679a770800000000000000
-      internalID: 8622552787453725418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HuntRang Atk 2
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f16814d280192b240800000000000000
-      internalID: 4806063216662775327
+      spriteID: dfb9fd51dafd3b2b0800000000000000
+      internalID: -5569862379637859331
       vertices: []
       indices: 
       edges: []
