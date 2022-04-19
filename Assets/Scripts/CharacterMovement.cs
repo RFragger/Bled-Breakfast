@@ -55,6 +55,11 @@ public class CharacterMovement : MonoBehaviour
         {
             transform.position = new Vector3(-23, 10, -8);
         }
+
+        if(collision.gameObject.tag == "Arrow")
+        {
+            transform.position = new Vector3(-23, 10, -8);
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
