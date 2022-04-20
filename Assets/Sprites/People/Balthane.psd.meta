@@ -29,6 +29,21 @@ TextureImporter:
   - first:
       213: -1713560169865207238
     second: Balthane_8
+  - first:
+      213: 3854112681552804533
+    second: Balthane_9
+  - first:
+      213: -7013062971369066700
+    second: Balthane_10
+  - first:
+      213: -2231650072118899276
+    second: Balthane_11
+  - first:
+      213: 8859593148793790775
+    second: Balthane_12
+  - first:
+      213: -6776481297249628542
+    second: Balthane_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -326,6 +341,111 @@ TextureImporter:
       bones: []
       spriteID: a322de5ba163838e0800000000000000
       internalID: -1713560169865207238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balthane_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba784c501f8c7530800000000000000
+      internalID: 3854112681552804533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balthane_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fe91462689cae90800000000000000
+      internalID: -7013062971369066700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balthane_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdc06c45169701e0800000000000000
+      internalID: -2231650072118899276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balthane_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731a658570993fa70800000000000000
+      internalID: 8859593148793790775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balthane_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e8b5ad92a15f1a0800000000000000
+      internalID: -6776481297249628542
       vertices: []
       indices: 
       edges: []
