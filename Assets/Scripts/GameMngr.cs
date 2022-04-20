@@ -20,6 +20,8 @@ public class GameMngr : MonoBehaviour
     public bool bloodDrunk;
     public float Drunkspeed;
     public CharacterMovement CM;
+    public AudioSource deathSound;
+    public AudioSource drunkSound;
     //public static bool GameOver = false;
     
 
@@ -50,6 +52,7 @@ public class GameMngr : MonoBehaviour
         bloodLevels = bloodLevels - Time.deltaTime * bloodDrain;
         if (bloodLevels >= 101)
         {
+            drunkSound.Play();
             bloodDrunk = true;
         }else
         {
@@ -61,6 +64,7 @@ public class GameMngr : MonoBehaviour
         if (bloodLevels <= 0)
         {
             bloodLevels = 0;
+            //deathSound.Play();
             Dead = true;
 
         }

@@ -7,6 +7,8 @@ public class CharacterMovement : MonoBehaviour
 {
     public float speed;
 
+    public AudioSource stabbed;
+    public AudioSource arrowHit;
     
     // Start is called before the first frame update
     void Start()
@@ -49,6 +51,7 @@ public class CharacterMovement : MonoBehaviour
         if(collision.gameObject.tag == "Enemy")
         {
             transform.position = new Vector3(-23, 10, -8);
+            stabbed.Play();
         }
 
         if(collision.gameObject.tag == "Sunlight")
@@ -59,6 +62,7 @@ public class CharacterMovement : MonoBehaviour
         if(collision.gameObject.tag == "Arrow")
         {
             transform.position = new Vector3(-23, 10, -8);
+            arrowHit.Play();
         }
     }
 
